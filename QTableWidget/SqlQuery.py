@@ -35,15 +35,15 @@ class Tourist(Base):
     __tablename__ = 'tourist'
 
     id = Column(Integer, primary_key=True)
-    name = Column(Text)
-    license = Column(Text)
-    flightnumber = Column(Text)
-    flightdate = Column(Text)
-    seatnumber = Column(Text)
-    boardingport = Column(Text)
+    name = Column(Text)  # 姓名
+    license = Column(Text) # 执照
+    flightnumber = Column(Text) # 航班号
+    flightdate = Column(Text) # 航班日期
+    seatnumber = Column(Text) # 座位号
+    boardingport = Column(Text) # 登机口
     no = Column(Text)
-    departurestation = Column(Text)
-    destinationstation = Column(Text)
+    departurestation = Column(Text) # 出发地
+    destinationstation = Column(Text) # 目的地
 
 
 class Window(QWidget, Ui_Form):
