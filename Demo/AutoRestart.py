@@ -10,7 +10,7 @@ Created on 2017年3月31日
 @description: 
 '''
 
-from optparse import OptionParser
+from optparse import OptionParser # 选项_解析器
 import os
 import sys
 
