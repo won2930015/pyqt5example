@@ -17,7 +17,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QPushButton, QWidget, QHBoxLayout
 
 
-canRestart = True
+canRestart = True #
 
 
 def restart(twice):
